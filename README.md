@@ -1,35 +1,45 @@
 # BariChain Prototype
 
-`BariChain_prototype` is a React-based application with frontend source files and package metadata for local development.
+## Project Tags
+
+- `Full Stack`
+- `Protocol`
+
+## Overview
+
+BariChain Prototype is a full-stack application with separate frontend and backend pieces.
 
 ## Features
 
-- React-based frontend with a local development workflow
-- Backend entry point for API or server-side workflows
+- User-facing frontend or app interface
+- Backend service, API, websocket, bot, or server workflow
 
 ## Tech Stack
 
 - React
-- Vite
-- Express/Node backend
+- Express
+- Node.js
+- JavaScript
+- HTML
+- CSS
 
 ## Project Structure
 
-- `README.md` - project documentation
-- `admin-interface` - project directory
-- `criteria.json` - project file
-- `package-lock.json` - project file
+- `admin-interface` - frontend application code
+- `criteria.json` - project file or directory
+- `package-lock.json` - project file or directory
 - `package.json` - Node package metadata and scripts
-- `server.js` - project file
-- `user-interface` - project directory
+- `server.js` - backend, API, bot, or server code
+- `user-interface` - frontend application code
 
 ## Getting Started
 
 ### Prerequisites
 
+- Git
 - Node.js 18+
 
-### Setup
+### Setup and Run
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/BariChain_prototype.git
@@ -52,16 +62,15 @@ npm install
 npm start
 ```
 
-## Available Commands
+## Commands
 
-- `admin-interface/package.json` - scripts: `start`, `build`, `test`, `eject`
-- `package.json` - scripts: `test`
-- `user-interface/package.json` - scripts: `start`, `build`, `test`, `eject`
+- `admin-interface/package.json`: `start`, `build`, `test`, `eject`
+- `package.json`: `test`
+- `user-interface/package.json`: `start`, `build`, `test`, `eject`
 
 ## Configuration
 
-- Create a local `.env` file for secrets, API keys, RPC URLs, private keys, bot tokens, or database credentials.
-- Keep `.env` files out of version control and document required variable names as the project stabilizes.
+- Document required service ports, database URLs, and API credentials before deployment.
 
 ## Testing and Quality
 
@@ -71,18 +80,18 @@ npm start
 - From `user-interface`, run `npm test`.
 - From `user-interface`, run `npm run build`.
 
-## Roadmap
+## Documentation Notes
 
-- Keep setup instructions aligned with the actual project workflow.
-- Add screenshots, architecture notes, or API examples as the implementation grows.
-- Document deployment steps once the hosting target is finalized.
+- Keep this README aligned with the actual source layout and commands.
+- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
+- Update the project tags when the scope changes.
 
 ## Contributing
 
-1. Create a feature branch.
-2. Make focused changes and update documentation when behavior changes.
+1. Create a focused branch for the change.
+2. Update code and documentation together.
 3. Run the relevant checks before opening a pull request.
 
 ## License
 
-No license file is currently included. Add one before distributing or reusing this project publicly.
+No license file is currently committed. Add one before distributing this project publicly.
